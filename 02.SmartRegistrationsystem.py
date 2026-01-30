@@ -1,6 +1,6 @@
 from curses.ascii import isdigit
 
-student_id=input("Student ID: ")
+student_id=input("ID: ")
 email_id=input("Email ID: ")
 password=input("Password: ")
 ref_code=input("Referral Code: ")
@@ -22,4 +22,5 @@ if valid:
     print("Approved")
 else:
     print("Rejected")
+
 
